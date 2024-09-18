@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TradeSpace Homepage</title>
     <link rel="stylesheet" href="../TradeSpace_CSS/homepage.css">
-    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;600;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="home-page">
@@ -30,11 +30,13 @@
         <main>
             <div class="hero-content">
                 <h1>Find the services that best suits <span class="highlight">YOU!</span></h1>
-                <svg class="vector-underline" width="118" height="15" viewBox="0 0 118 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M2 3.32343C26.5774 3.32343 51.1687 3.56753 75.7443 3.28667C89.1139 3.13387 102.446 2 115.815 2" stroke="black" stroke-width="2.5" stroke-linecap="round"/>
-                    <path d="M22.1824 9.40695C46.6599 8.79502 71.227 10.1335 95.6326 7.42181" stroke="black" stroke-width="2.5" stroke-linecap="round"/>
-                    <path d="M50.3052 13.4069C56.048 13.4069 61.8275 13.4069 67.5097 13.4069" stroke="black" stroke-width="2.5" stroke-linecap="round"/>
-                </svg>
+                <div class="vector-container">
+                    <svg class="vector-underline" width="118" height="15" viewBox="0 0 118 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2 3.32343C26.5774 3.32343 51.1687 3.56753 75.7443 3.28667C89.1139 3.13387 102.446 2 115.815 2" stroke="black" stroke-width="2.5" stroke-linecap="round"/>
+                        <path d="M22.1824 9.40695C46.6599 8.79502 71.227 10.1335 95.6326 7.42181" stroke="black" stroke-width="2.5" stroke-linecap="round"/>
+                        <path d="M50.3052 13.4069C56.048 13.4069 61.8275 13.4069 67.5097 13.4069" stroke="black" stroke-width="2.5" stroke-linecap="round"/>
+                    </svg>
+                </div>
                 <div class="search-bar">
                     <div class="select-wrapper">
                         <select id="service-select">
@@ -51,7 +53,7 @@
                     <button id="search-button">Search</button>
                 </div>
                 <div class="trusted-by">
-                    <h3>trusted by:</h3>
+                    <span class="trusted-by-text">trusted by:</span>
                     <div class="trusted-by-logos">
                         <img src="../TradeSpace_Resources/advtech_logo.png" alt="Advtech">
                         <img src="../TradeSpace_Resources/nexgen_coders_logo.png" alt="NexGen Coders">
@@ -68,3 +70,4 @@
     <script src="../TradeSpace_JS/homepage.js"></script>
 </body>
 </html>
+
